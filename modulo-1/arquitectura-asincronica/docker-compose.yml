@@ -1,0 +1,5 @@
+services:
+  orquestador:
+    build: .
+    image: orquestador-async:latest
+    container_name: orquestador
